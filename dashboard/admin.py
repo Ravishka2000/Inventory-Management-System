@@ -1,6 +1,6 @@
 from django.contrib import admin
 from django.contrib.auth.models import Group
-from .models import Product
+from .models import *
 
 
 # change header of the admin Dashboard
@@ -16,5 +16,6 @@ class ProductAdmin(admin.ModelAdmin):
 
 
 admin.site.register(Product, ProductAdmin)
+admin.site.register(Order)
 admin.site.unregister(Group)
 
