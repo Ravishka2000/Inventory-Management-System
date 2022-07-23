@@ -129,6 +129,10 @@ STATICFILES_DIRS = [
     BASE_DIR / "static"
 ]
 
+MEDIA_ROOT = (BASE_DIR / "media")
+
+MEDIA_URL = '/media/'
+
 CRISPY_TEMPLATE_PACK = 'bootstrap4'
 
 # Default primary key field type
