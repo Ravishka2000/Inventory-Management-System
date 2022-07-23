@@ -17,5 +17,5 @@ class ProductAdmin(admin.ModelAdmin):
 
 admin.site.register(Product, ProductAdmin)
 admin.site.register(Order)
-admin.site.unregister(Group)
+# admin.site.unregister(Group)
 
